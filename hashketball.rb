@@ -225,8 +225,6 @@ def player_with_longest_name
   return player_name
 end
 
-
-  
-  
-
+def long_name_steals_a_ton?
+  player_name = player_with_longest_name()
 
