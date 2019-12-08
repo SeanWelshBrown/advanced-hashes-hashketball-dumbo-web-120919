@@ -210,7 +210,7 @@ def winning_team
 
 end
 
-def player_with_the_longest_name
+def player_with_longest_name
   longest_name_length = 0
   player_name = ""
   
