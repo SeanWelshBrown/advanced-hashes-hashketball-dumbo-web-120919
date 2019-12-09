@@ -212,11 +212,11 @@ def winning_team
   
   game_hash.each do |team, info|
     if team == :home 
-      info.each[:players] do |player|
+      info[:players].each do |player|
         home_team_points += player[:points]
       end
     elsif team == :away 
-      info.each[:players] do |player|
+      info[:players].each do |player|
         away_team_points += player[:points]
       end
     end
